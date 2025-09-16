@@ -74,14 +74,14 @@ where $Z\in\mathbb{R}^{n\times d}$ represent the set of features constructed fro
 
 ## Overall Architecture
 
-Set Transformer has the following basic architecture:
+Set Transformer consists of the following basic architecture:
 
-$ \text{Encoder}(X) = \text{SAB}(\text{SAB}(X)) $
+$$ \text{Encoder}(X) = \text{SAB}(\text{SAB}(X)) $$
 
-or
+$$ \text{or} $$
 
-$ \text{Encoder}(X) = \text{ISAB}_m(\text{ISAB}_m(X)) $
+$$ \text{Encoder}(X) = \text{ISAB}_m(\text{ISAB}_m(X)) $$
 
-and 
+$$ \text{and} $$
 
-$ \text{Decoder}(Z) = \text{rFF}(\text{SAB}(\text{PMA}_k(Z))) $
+$$ \text{Decoder}(Z) = \text{rFF}(\text{SAB}(\text{PMA}_k(Z))) $$
