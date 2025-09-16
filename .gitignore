@@ -1,0 +1,10 @@
+ModelNet40/
+logs/*.png
+logs/*tfevents*
+*.pth
+*.csv
+*.npy
+*.vscode/
+*__pycache__/
+*.ipynb_checkpoints/
+*.ipynb
